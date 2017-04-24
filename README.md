@@ -1,4 +1,4 @@
-![alt text](https://github.com/sayonsom/Canvass/canvass.svg "Logo Title Text 1")
+![alt text](https://github.com/sayonsom/Canvass/canvass.png "Logo Title Text 1")
 
 # Canvass
 ## Cyber Attack, Network Vulnerability Analysis, Smart grid Simulations

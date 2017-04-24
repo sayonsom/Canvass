@@ -1,0 +1,4 @@
+"Name","Type","GenBus","P(kW)","Q(kVar)","Q(kVar)Min","vm_pu"
+static generator,Static, bus7, -2000, 500, ,
+generator, Generator ,bus6, -6000, 3000, -2000, 1.03
+

@@ -1,0 +1,56 @@
+IEEE14Bus
+
+~---Bus---~
+"Name","Description","Node","Voltage","Type"
+*bus1, HV Busbar, 1, 110, b
+bus2, HV Busbar 2, 2, 110, b
+bus3, HV Transformer Bus, 3, 110, n
+bus4, MV Transformer Bus, 3, 20, n
+bus5, MV Main Bus, 5, 20, b
+bus6, MV Bus 1, 6, 20, b
+bus7, MV Bus 2, 7, 20, b
+~---NoMoreBus---~
+
+~---Line---~
+"Name","ConductorType","FromBus","ToBus","Length(km)"
+line1, N2XS(FL)2Y 1x300 RM/35 64/110 kV, bus1, bus2, 10
+line2, NA2XS2Y 1x240 RM/25 12/20 kV, bus5, bus6, 2.0
+line3, 48-AL1/8-ST1A 20.0, bus6, bus7, 3.5
+line4, NA2XS2Y 1x240 RM/25 12/20 kV, bus7, bus5, 2.5
+~---NoMoreLine---~
+
+~---Substation---~
+~---NoMoreSubstation---~
+
+~---Transformer---~
+"Name","Node","HVBus","LVBus","Description","HV","LV","Type"
+trafo1, 3, bus3, bus4, "110kV/20kV transformer", 110, 20, "25 MVA 110/20 kV"
+~---NoMoreTransformer---~
+
+~---Shunt---~
+"Name","ShuntBus","P(kW)","Q(kVar)"
+Shunt, bus3, 0, -960
+~---NoMoreShunt---~
+
+~---Generator---~
+"Name","Type","GenBus","P(kW)","Q(kVar)","Q(kVar)Min","vm_pu"
+static generator, Static, bus7, -2000, 500, ,
+generator, Generator, bus6, -6000, 3000, -2000, 1.03
+~---NoMoreGenerator---~
+
+~---Switch---~
+"Name","FromComponent","ToComponent","ET","Type","Status"
+sw1, bus2, bus3, b, CB, True
+sw2, bus4, bus5, b, CB, True
+sw3, bus5, line2, l, LBS, True
+sw4, bus6, line2, l, LBS, True
+sw5, bus6, line3, l, LBS, True
+sw6, bus7, line3, l, LBS, False
+sw7, bus7, line4, l, LBS, True
+sw8, bus5, line4, l, LBS, True
+~---NoMoreSwitch---~
+
+~---Load---~
+"Name","LoadBus","P(kW)","Q(kVAR)","Scaling"
+load, bus7, 2000, 4000, 0.6
+~---NoMoreLoad---~

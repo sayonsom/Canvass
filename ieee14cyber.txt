@@ -1,0 +1,4 @@
+sub1, router2, firewall3, switch4, switchIP5, hosts6, IP7, links8, delay9, bandwidths10, loss11, maxQueueSize12, [<-DONT EDIT THIS LINE]
+bus1| 0| 0| s1| 10.0.0.1| h1,h2,h3| 10.0.0.2,10.0.0.3,10.0.0.4| (s1,h1) (s1,h2) (s1,h3) (h1,h3) | 0ms,5ms,1ms,1ms| 400,20,20,648| 0,2,4,0| 1400,1500,200,100| [x]
+bus2| 0| 0| s1| 10.0.0.1| h1,h2,h3| 10.0.0.2,10.0.0.3,10.0.0.4| (s1,h1) (s1,h2) (s1,h3) (h2,h3) | 0ms,5ms,1ms,1ms| 14,20,20,48| 0,0,0,0| 1000,1000,1000,1000| [x]
+sw1| 0| 0| s3| 10.0.0.10| h1| 10.0.0.10|

@@ -1,0 +1,4 @@
+"Name","LoadBus","P(kW)","Q(kVAR)","Scaling"
+load,bus7, 2000, 4000, 0.6
+
+

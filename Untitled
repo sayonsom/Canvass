@@ -1,0 +1,31 @@
+~---CyberModel---~
+
+~---SubCyber---~
+bus1
+~---Components---~
+router, s1, 10.0.0.1
+CT1, h1, 10.0.0.2
+CT2, h2, 10.0.0.3
+Meter1, h3, 10.0.0.4
+~---Links---~
+“From”,”To”
+router1, CT1
+router1, CT2
+router1, Meter1
+~---EndOfSubCyber---~
+
+~~SubCyber~~
+bus2
+~~~Components~~~
+router, s1, 10.0.0.1
+CT1, h1, 10.0.0.2
+CT2, h2, 10.0.0.3
+Meter1, h3, 10.0.0.4
+~~~Links~~~
+“From”,”To”
+router1, CT1
+router1, CT2
+router1, Meter1
+~~EndOfSubCyber~~
+
+~---NoMoreCyberModel---~

@@ -1,0 +1,2 @@
+"Name","Node","HVBus","LVBus","Description","HV","LV","Type"
+trafo1, 3, bus3, bus4, "110kV/20kV transformer", 110, 20, "25 MVA 110/20 kV"

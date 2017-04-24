@@ -1,0 +1,10 @@
+"Name","FromComponent","ToComponent","ET","Type","Status"
+sw1, bus2, bus3, b, CB, True
+sw2, bus4, bus5, b, CB, True
+sw3, bus5, line2, l, LBS, True
+sw4, bus6, line2, l, LBS, True
+sw5, bus6, line3, l, LBS, True
+sw6, bus7, line3, l, LBS, False
+sw7, bus7, line4, l, LBS, True
+sw8, bus5, line4, l, LBS, True
+

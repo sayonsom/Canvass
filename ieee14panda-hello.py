@@ -28,7 +28,7 @@ pp.create_gen(net, bus6, p_kw = -6000, max_q_kvar = 3000, min_q_kvar = -2000, vm
 
 
 sw1 = pp.create_switch(net, bus2,bus3, et = "b", type = "CB", closed = True)
-sw2 = pp.create_switch(net, bus4,bus5, et = "b", type = "CB", closed = True)
+sw2 = pp.create_switch(net, bus4,bus5, et = "b", type = "CB", closed = False)
 sw3 = pp.create_switch(net, bus5,line2, et = "l", type = "LBS", closed = True)
 sw4 = pp.create_switch(net, bus6,line2, et = "l", type = "LBS", closed = True)
 sw5 = pp.create_switch(net, bus6,line3, et = "l", type = "LBS", closed = True)

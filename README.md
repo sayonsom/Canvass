@@ -7,12 +7,12 @@ The best use case for _Canvass_ is developing new algorithms, simulating new kin
 This toolkit is for academic and research purposes, and penetration testing of critical power grid infrastructure.
 
 
-### Why another Power Grid Software?
+### Why another Power Grid Software? ![alt text](https://img.shields.io/packagist/l/doctrine/orm.svg "Logo Title Text 1") 
 
 Very few power system analysis tools are inter-disciplinary in nature.
 In the age of smart grids, performing co-simulations of cyber physical power systems are not only necessary, they are required.
 Yet, performing such simulations require elaborate setups and two different sets of modeling.
-_Canvass_ can fulfill that gap, better than any other open source toolkit available in the market today (2017). 
+_Canvass_ can fulfill that gap, better than any other open source toolkit available in the market today (2017).
 
 ### What can you do with Canvass?
 

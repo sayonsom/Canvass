@@ -9,6 +9,8 @@ This toolkit is for academic and research purposes, and penetration testing of c
 
 ### Why another Power Grid Software? ![alt text](https://img.shields.io/packagist/l/doctrine/orm.svg "Logo Title Text 1") 
 
+[![Join the chat at https://gitter.im/smartgrid-canvass/Lobby](https://badges.gitter.im/smartgrid-canvass/Lobby.svg)](https://gitter.im/smartgrid-canvass/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Very few power system analysis tools are inter-disciplinary in nature.
 In the age of smart grids, performing co-simulations of cyber physical power systems are not only necessary, they are required.
 Yet, performing such simulations require elaborate setups and two different sets of modeling.

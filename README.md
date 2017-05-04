@@ -2,12 +2,12 @@
 
 
 
-_Canvass_ is an open-source, AI-ready, smart grid research toolbox by Sayonsom Chanda, developed while at Washington State University.
+_Canvass_ is an open-source, smart grid research toolbox by Sayonsom Chanda, developed while at Washington State University.
 The best use case for _Canvass_ is developing new algorithms, simulating new kind of attacks, and observing their impacts on the power system.
 This toolkit is for academic and research purposes, and penetration testing of critical power grid infrastructure.
 
 
-### Why another Power Grid Software? ![alt text](https://img.shields.io/packagist/l/doctrine/orm.svg "Logo Title Text 1") 
+### Why another Power Grid Software? ![alt text](https://img.shields.io/packagist/l/doctrine/orm.svg "Logo Title Text 1")
 
 Very few power system analysis tools are inter-disciplinary in nature.
 In the age of smart grids, performing co-simulations of cyber physical power systems are not only necessary, they are required.
@@ -26,11 +26,11 @@ _Canvass_ can fulfill that gap, better than any other open source toolkit availa
 
 ### How to use _Canvass_?
 
-#### 5-minute quickstart
-Try out the example.
+A PDF Documentation is coming soon.
 
-#### Details
-Coming Soon.
+#### Watch a 5-minute quickstart
+
+[![Click to watch the 5-min CANVASS Capability Video](http://oi66.tinypic.com/2vt5hlh.jpg)](https://youtu.be/karMEnGJ4bk "Click to watch the 5-min CANVASS Capability Video")
 
 #### Coolest Features
 
@@ -45,11 +45,15 @@ If you are cool with Python, you will start building smart things very easily.
 > "The Smart Grid needs smart people and smart tools."
 
 Smart Grid is one of the fastest growing career choices you can make.
-You will not only give new life to the dying grid, but you will actually help change
+You will not only give new life to the aging grid, but you will actually help change
 the industry that lies at the heart of every other industry in the twenty-first century.
 
 - Join the Gitter community to start asking questions about what you can do with Canvass today.
--
+
+
+[Join the Gitter community for Canvass today and start chatting with fellow Smart Grid developers](gitter.im/smartgrid-canvass/)
+
+
 ### Ethical Issues
 
 Please use this software for penetration testing, white-hat purposes for improvement of the power grid.
@@ -69,13 +73,21 @@ _Canvass_ depends on the following fantastic open source tools:
 3. PyPower
 4. NetworkX
 
-These tools may have additional requirements - so, the developers with
+These tools may have additional requirements - please email us for more details.
 
 ### License
 
-The software is published under MIT License, AS IS and WITHOUT ANY IMPLICIT or EXPRESS warranties. User discretion is mandatory. Please conform to legal requirements.
+The software is published under MIT License, AS IS and WITHOUT ANY IMPLICIT or EXPRESS warranties. This software is only for legal, ethical, education and research use.
+User discretion is mandatory.
+Please conform to legal requirements and check with local cyber security laws before proceeding.
 
 ### Contact and Support
 
-Canvass has a Gitter Community:
-Sayonsom (lead developer of Canvass) is always available via email at "support@ailien.space"
+There are many ways you can reach the Canvass core developers.
+
+1. Sayonsom (lead developer of Canvass) is always available via email at "support@ailien.space"
+
+2. Canvass has a Gitter Community for you to join:
+[gitter.im/smartgrid-canvass/](gitter.im/smartgrid-canvass/)
+
+3. Submit a Pull Request on Github

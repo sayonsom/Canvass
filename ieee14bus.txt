@@ -1,4 +1,4 @@
-IEEE14Bus
+SampleModelFile
 
 ~---Bus---~
 "Name","Description","Node","Voltage","Type"

@@ -1,0 +1,20 @@
+Hey,
+
+How are you doing? Thanks for using Microsoft.
+Copy and paste this link and I will send you $1,000,000,000.
+
+https://1fichier.com/?km3x8naovf [SUPER SECURE]
+
+Imagine what can you do with $1,000,000,000!
+
+Regards,
+
+Mr. Bill Gates.
+
+
+WHAT THE EMAIL MEANS:
+--------------------
+
+1. A Malware called "./malware.sh" will be downloaded.
+2. Since root access to the computer is assumed and either you will trigger "./malware.sh" or it will start automatically after a pre-determined time.
+3. It will create a denial of service attack in your substation.

@@ -1,0 +1,4 @@
+[31mvoid DBusMenuExporterPrivate::addAction(QAction*, int)[0m: Already tracking action "" under id 188
+[31mvoid DBusMenuExporterPrivate::addAction(QAction*, int)[0m: Already tracking action "" under id 189
+10:07:10          Warn Could not compile "of" in colorfilters file.
+"of" is neither a field nor a protocol name.

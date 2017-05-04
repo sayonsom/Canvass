@@ -63,8 +63,8 @@ def readBusData(i):
 def writeForPowerFlow():
     f.write("pp.create_ext_grid(net, bus1, vm_pu = 1.02, va_degree=50)\n")
     f.write("pp.runpp(net)")
-    f.write("\nprint (\"Power Flow Results At The Buses\")")
-    f.write("\nprint (\"-------------------------------\")")
+    f.write("\nprint (\"Canvass NR Power Flow Results At The Buses\")")
+    f.write("\nprint (\"------------------------------------------\")")
     f.write("\nprint (net.res_bus)")
     #f.close()
     #os.system("python pandafile.py")

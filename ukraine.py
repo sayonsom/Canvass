@@ -23,8 +23,8 @@ def loadFromEmailFile():
 def sendPhishingEmail(model, victim):
     msg = loadFromEmailFile()
 
-    #me = "canvassattackdemo@yahoo.com"
-    me = "sayonsom.home@gmail.com"
+    me = "canvassattackdemo@yahoo.com"
+
     msg['Subject'] = '[Canvass DEMO] You won $1,000!'
     msg['From'] = me
     msg['To'] = victim
@@ -34,8 +34,8 @@ def sendPhishingEmail(model, victim):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    #s.login(me, "sillystupidpassword123")
-    s.login(me, "googleSupreme$9")
+    s.login(me, "sillystupidpassword123")
+    
     try:
         s.sendmail(me, [victim], msg.as_string())
         print("[!] Email sent. Victim should receive the email shortly. [3-4 Minutes]")
